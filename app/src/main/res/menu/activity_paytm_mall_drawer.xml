@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_first"
+            android:icon="@drawable/star_black"
+            android:title="Paytm First" />
+        <item
+            android:id="@+id/nav_orders"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:icon="@drawable/ic_menu_gallery"
+            android:title="My Orders"
+            android:tooltipText="Hello" />
+        <item
+            android:id="@+id/nav_passbook"
+            android:icon="@drawable/passbook"
+            android:title="My Passbook" />
+        <item
+            android:id="@+id/nav_payment_remainder"
+            android:icon="@drawable/payment"
+            android:title="Payment Remainder" />
+        <item
+            android:id="@+id/nav_fav_stores"
+            android:icon="@drawable/store"
+            android:title="My Favourite Stores" />
+        <item
+            android:id="@+id/nav_loylty_card"
+            android:icon="@drawable/loyalty"
+            android:title="My Loyalty Cards" />
+    </group>
+
+   <!-- <item android:title="Communicate">
+        <menu>
+            <item
+                android:id="@+id/nav_share"
+                android:icon="@drawable/ic_menu_share"
+                android:title="Share" />
+            <item
+                android:id="@+id/nav_send"
+                android:icon="@drawable/ic_menu_send"
+                android:title="Send" />
+        </menu>
+    </item>-->
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_choose_lang"
+            android:icon="@drawable/ic_menu_manage"
+            android:title="Choose Language" />
+    </group>
+
+</menu>

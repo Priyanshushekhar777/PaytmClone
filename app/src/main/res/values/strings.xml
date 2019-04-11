@@ -1,0 +1,19 @@
+<resources>
+    <string name="app_name">PaytmClone</string>
+    <string name="title_home">Home</string>
+    <string name="title_mall">Paytm Mall</string>
+    <string name="title_scan">Scan</string>
+    <string name="title_bank">Bank</string>
+    <string name="title_activity_home">HomeActivity</string>
+    <string name="title_inbox">Inbox</string>
+    <string name="title_activity_payments_bank_login">PaymentsBankLoginActivity</string>
+    <string name="title_dashboard">Dashboard</string>
+    <string name="title_notifications">Notifications</string>
+    <string name="title_activity_paytm_mall">PaytmMallActivity</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Name</string>
+    <string name="nav_header_subtitle">Mob Number</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+</resources>

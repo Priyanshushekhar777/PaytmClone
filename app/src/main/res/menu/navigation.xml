@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/navigation_home"
+        android:icon="@drawable/ic_home_black_24dp"
+        android:title="@string/title_home" />
+
+    <item
+        android:id="@+id/navigation_mall"
+        android:icon="@drawable/local_mall"
+        android:title="Paytm Mall" />
+
+    <item
+        android:id="@+id/navigation_scan"
+        android:icon="@drawable/ic_dashboard_black_24dp"
+        android:title="Scan" />
+
+    <item
+        android:id="@+id/navigation_bank"
+        android:icon="@drawable/bank"
+        android:title="Bank" />
+
+    <item
+        android:id="@+id/navigation_inbox"
+        android:icon="@drawable/message"
+        android:title="inbox" />
+
+</menu>
